@@ -6,7 +6,7 @@ import glob
 from stereo_vision.constants.cv_window_names import LEFT_CAM_WINDOW, RIGHT_CAM_WINDOW
 
 
-class CaptureFrames:
+class CaptureFrames():
     def __init__(self):
         self.left_cam = "/dev/video2"
         self.right_cam = "/dev/video4"

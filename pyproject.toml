@@ -11,6 +11,7 @@ python = "^3.9"
 opencv-python = "^4.5.2"
 numpy = "^1.21.0"
 argparse = "^1.4.0"
+matplotlib = "^3.4.2"
 
 [tool.poetry.scripts]
 dev = "stereo_vision.main:main"
